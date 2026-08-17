@@ -30,7 +30,7 @@ Não é necessário instalar nenhuma biblioteca adicional.
 ## 3. Estrutura do projeto
 
 ```text
-mini_projeto_olist/
+MineProjeto1/
 ├── main.py
 ├── README.md
 ├── olist_products_dataset.csv
