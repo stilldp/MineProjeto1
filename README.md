@@ -1,4 +1,4 @@
-# Mini-Projeto Avaliativo
+# Mini-Projeto 1 Avaliativo
 
 Nome: Anderson Chrystian Borba
 
@@ -189,6 +189,10 @@ Ao final, o terminal apresenta um relatório com:
 - resultado da hipótese de negócio.
 
 
+## Resultados ao rodar o main.py:
+
+<img width="1050" height="631" alt="saida execusaocerto" src="https://github.com/user-attachments/assets/ebb030b3-6eeb-4931-ac38-6997b1c0d81a" />
+
 ## Resultados obtidos com a base oficial
 
 Após executar o script com os arquivos fornecidos para o mini-projeto, foram obtidos os seguintes resultados:
@@ -223,13 +227,13 @@ A hipótese foi **refutada**. A ausência de `order_delivered_customer_date` nã
 
 Portanto, a regra “data de entrega nula significa obrigatoriamente pedido cancelado” não é válida para essa base. O arquivo `saida/orders_entrega_nula_nao_cancelados.csv` contém os **2.346 registros** que comprovam essa conclusão.
 
-## 9. Reflexão teórica – qualidade dos dados e Machine Learning
+## 7. Reflexão teórica – qualidade dos dados e Machine Learning
 
 A qualidade dos dados utilizados no treinamento influencia diretamente a capacidade de generalização de um modelo de Machine Learning. Valores ausentes, categorias escritas de formas diferentes, campos inválidos e inconsistências podem fazer com que o algoritmo aprenda padrões que não representam corretamente o problema real. A limpeza e a padronização reduzem esse ruído e tornam as variáveis mais consistentes antes da etapa de treinamento.
 
 Esse processo também ajuda a reduzir vieses e resultados enganosos. Um modelo treinado com informações incorretas pode se ajustar excessivamente a erros presentes na amostra, contribuindo para *overfitting*, ou pode não encontrar relações importantes entre as variáveis, levando a um desempenho próximo de *underfitting*. Portanto, um pipeline de preparação bem definido não elimina sozinho esses problemas, mas cria uma base muito mais confiável para treinamento, validação e tomada de decisões com Inteligência Artificial.
 
-## 10. Conclusão
+## 8. Conclusão
 
 O projeto demonstra que é possível realizar tarefas importantes de preparação de dados utilizando somente bibliotecas nativas do Python. Foram aplicados conceitos de leitura estruturada de CSV, tratamento de valores nulos, Regex, manipulação de strings, condicionais, laços, funções, dicionários, tratamento de dados numéricos e formatação temporal.
 
